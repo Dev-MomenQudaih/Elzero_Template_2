@@ -172,9 +172,9 @@ header .toggle-menu {
 .landing {
   position: relative;
   background-color: #1f2021;
-  background-image: url("../images/bg1.jpg");
+  background-image: url("../images/landing.jpg");
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .landing .overlay {
