@@ -978,6 +978,18 @@ header .toggle-menu {
   width: fit-content;
   padding: 20px;
   margin: 30px auto;
+  color: black;
+  transition: 0.7s;
+  position: relative;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+
+.pricing .plans .plan .foot a:hover {
+  color: white;
+  background-color: var(--main-color);
 }
 
 .pricing .contact-text {
@@ -1095,6 +1107,7 @@ header .toggle-menu {
   color: white;
   padding: 10px 20px;
   width: 130px;
+  cursor: pointer;
 }
 
 .subscribe .container form input[type="email"]:focus,
@@ -1243,6 +1256,7 @@ header .toggle-menu {
 
 .footer .social-icons i {
   margin: 10px 15px;
+  cursor: pointer;
 }
 
 .footer p.copyright {
